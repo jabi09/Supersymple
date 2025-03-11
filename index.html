@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <title>LA 8017 | M287 </title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Meine CSS-Seite</div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#lists">Listen</a></li>
+                    <li><a href="#form">Formular</a></li>
+                    <li><a href="#tables">Tabellen</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Modul 287 - LA8017</h1>
+        <div id="home" class="container home">
+            <h2>Gestalten sie diese Webseite!</h2>
+            <img src="thumb.gif" alt="thumbup"/>
+        </div>
+
+        <div id="lists" class="container lists">
+            <h2>Listen</h2>
+            <h3>Eine normale Liste</h3>
+            <ul class="list-normal">
+                <li>Erster Punkt</li>
+                <li>Zweiter Punkt</li>
+                <li>Dritter Punkt</li>
+                <li>Vierter Punkt</li>
+            </ul>
+
+            <h3>Die gleiche Liste als Kacheln</h3>
+            <ul class="list-tile">
+                <li>Erster Punkt</li>
+                <li>Zweiter Punkt</li>
+                <li>Dritter Punkt</li>
+                <li>Vierter Punkt</li>
+            </ul>
+        </div>
+
+        <div id="form" class="container form">
+            <h2>Formular</h2>
+            <form action="/" method="post">
+                <label>Name</label>
+                <input class="gleich" name="name" type="input" />
+                <br>
+                <label>Ort</label>
+                <select name="ort">
+                    <option name="Baden">Baden</option>
+                    <option name="Aarau">Aarau</option>
+                </select>
+                <br>
+                <label>Essgewohnheit</label>
+                <fieldset class="box">
+                    <input type="radio" id="fl" name="Essgewohnheit" value="Fleisch">
+                    <label for="mc"> Fleisch</label>
+                    <input type="radio" id="veg" name="Essgewohnheit" value="Vegetarier">
+                    <label for="vi"> Vegetarisch</label>
+                    <input type="radio" id="vgn" name="Essgewohnheit" value="Vegan">
+                    <label for="ae"> Vegan</label>
+                </fieldset>
+                <div class="checkbox">
+                    <label>AGB's gelesen</label>
+                    <input type="checkbox" name="agb" value="agb">
+                </div>
+
+                <button type="submit">Absenden</button>
+            </form>
+
+
+        </div>
+        <div id="tables" class="container tables">
+            <h2>Tabelle</h2>
+            <table cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>Vorname</th>
+                        <th>Nachname</th>
+                        <th>Wohnort</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Donald</td>
+                        <td>Duck</td>
+                        <td>Entenhausen</td>
+                    </tr>
+                    <tr>
+                        <td>Pipi</td>
+                        <td>Langstrumpf</td>
+                        <td>Villa Kunterbunt</td>
+                    </tr>
+                    <tr>
+                        <td>Tim</td>
+                        <td></td>
+                        <td>Schloss Mühlenhof</td>
+                    </tr>
+                    <tr>
+                        <td>Jupiter</td>
+                        <td>Jones</td>
+                        <td>Rocky Beach</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+    </main>
+    <footer>
+        <p>Modul 287 - Berufsfachschule Baden - MediamatikerIn</p>
+    </footer>
+
+</body>
+
+</html>

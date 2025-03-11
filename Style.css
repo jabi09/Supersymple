@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    /* Entfernt den Standardabstand */
+    padding: 0;
+    /* Entfernt den Standardabstand */
+}
+
+nav .logo {
+    font-family: Impact;
+    color: rgb(138, 206, 37);
+    font-size: 4em;
+    margin: 10px;
+    text-transform: uppercase;/* macht grossbuchstaben */
+}
+
+nav .menu ul li {
+    display: inline-block;/* alle auf eine horizontale linie */
+    text-align: right;/* text aus gerichtet nach rechts */
+}
+
+nav .menu ul {
+    text-align: end;/* Text ausgerichtet ans ende*/
+    margin: 20px;
+    font-family: Impact;
+}
+
+a {
+    text-decoration: none; /* ohne unterstrichen */
+    font-size: 2em;
+    color: blueviolet;
+}
+
+a:hover {/* Farbe ändert sich beim drüber fahren */
+    color: #ffffff;
+    /* Neue Farbe beim Hover */
+}
+
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 50em; /* maximale Höhe */
+    background: blanchedalmond;
+}
+
+main{
+    margin-top: 10em;
+
+ }
+
+ h1{
+    font-family: Impact;
+    font-size: 7em;
+    color: blueviolet;
+
+ }
+
+ h2{
+    font-family: Verdana;
+ }
+
+ h3{
+    font-family: Verdana;
+ }
+
+ main{
+    font-family: Verdana;
+    font-size: 20px;
+ }
+
+ main .container{
+    min-height: 100vh;
+ }
+
+
+ ul.list-tile li {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 206, 37);
+    list-style: none;
+    margin: 5px;             /* Etwas Abstand zwischen den Quadraten */
+    color: #ffffff;
+    padding: 5px;
+    text-align: start; /* richtet den Text am Anfang des Containers aus */
+    writing-mode: vertical-lr; /* Setzt den Text vertikal von rechts nach links */
+}
+ 
+ul.list-tile li:nth-child(odd) {
+    background-color: blueviolet; /* Jedes ungerade Element bleibt lightseagreen */
+}
+
+ul.list-tile {
+    display: flex;           /* Setzt die Liste in eine Reihe */
+    flex-wrap: wrap;         /* Ermöglicht den Umbruch der Elemente */
+    padding: 0;
+    margin: 0;
+}
+/*Formular*/
+
+#form.container.form form .gleich{
+    width: 10em;
+    height: 5em;
+    background: #ffffff;
+}
+#form select{
+    width: 10em;
+    height: 5em;
+    background: #ffffff;
+}
+
+#form{
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 10px;
+    }
+
+#tabels{
+    margin-top: 80em;
+}
+body {
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
+}
+
